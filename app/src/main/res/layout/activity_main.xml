@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Greek Mythology"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/Instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/question_one"
+            style="@style/Questions"/>
+
+        <RadioGroup
+            android:id="@+id/question_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Zeus" />
+
+            <RadioButton
+                android:id="@+id/cronus_answer"
+                style="@style/Answers"
+                android:text="Cronus" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Hypnos" />
+        </RadioGroup>
+
+
+        <TextView
+            android:text="@string/question_two"
+            style="@style/Questions"/>
+
+        <RadioGroup
+            android:id="@+id/question_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/zeus_answer"
+                style="@style/Answers"
+                android:text="Zeus" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Hera" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Dionysus" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Apollo" />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question_three"
+            style="@style/Questions"/>
+
+        <RadioGroup
+            android:id="@+id/question_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="rain" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="fish" />
+
+            <RadioButton
+                android:id="@+id/earthquakes_answer"
+                style="@style/Answers"
+                android:text="earthquakes" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="sand" />
+
+        </RadioGroup>
+
+        <TextView
+            android:text="@string/question_four"
+            style="@style/Questions"/>
+
+        <RadioGroup
+            android:id="@+id/question_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Hacate" />
+
+            <RadioButton
+                android:id="@+id/persephone_answer"
+                style="@style/Answers"
+                android:text="Persephone" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Isis" />
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:text="@string/question_five"
+            style="@style/Questions"/>
+
+        <RadioGroup
+            android:id="@+id/question_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="the Red Cross" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="the Rx" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="the cup of hygieia" />
+
+            <RadioButton
+                android:id="@+id/caduceus_answer"
+                style="@style/Answers"
+                android:text="the caduceus" />
+        </RadioGroup>
+
+
+        <TextView
+            android:text="@string/question_six"
+            style="@style/Questions"/>
+
+        <CheckBox
+            android:id="@+id/hera_answer"
+            style="@style/Answers"
+            android:text="Hera" />
+
+        <CheckBox
+            android:id="@+id/metis_answer"
+            style="@style/Answers"
+            android:text="Metis" />
+
+        <CheckBox
+            android:id="@+id/persephone_wrong"
+            style="@style/Answers"
+            android:text="Persephone" />
+
+        <CheckBox
+            android:id="@+id/leda_answer"
+            style="@style/Answers"
+            android:text="Leda" />
+
+        <CheckBox
+            android:id="@+id/aphrodite_wrong"
+            style="@style/Answers"
+            android:text="Aphrodite" />
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question_seven"/>
+
+        <EditText
+            android:id="@+id/written_answer"
+            style="@style/Answers"
+            android:hint="write answer here" />
+
+        <Button
+            android:id="@+id/submit_answer"
+            style="@style/Answers"
+            android:text="Submit"
+            android:onClick="checkAnswers" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+

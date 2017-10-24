@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="name">Name</string>
+    <string name="instructions">Test your knowledge in Greek Mythology! Answer the following questions and submit when finished!</string>
+    <string name="question_one">#1)Who is the Greek God of time?</string>
+    <string name="question_two">#2)Who is the king of the Gods?</string>
+    <string name="question_three">#3)Poseidon is the God of the Sea and...?</string>
+    <string name="question_four">#4)Hades is best known for kidnapping which minor Godess?</string>
+    <string name="question_five">#5)Hermes symbol is what now popular medical symbol?</string>
+    <string name="question_six">#6)Choose the wife/wives of Zeus.</string>
+    <string name="total_points">Total points =</string>
+    <string name="question_seven">#7)Which sneaker is named after the Greek goddess of victory?</string>
+</resources>
